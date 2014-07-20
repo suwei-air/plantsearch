@@ -1,0 +1,5 @@
+{
+    "require": {
+        "ellislab/codeigniter": "2.2.*"
+    }
+}
