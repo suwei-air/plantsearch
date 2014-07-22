@@ -1,0 +1,14 @@
+<phpunit
+  colors="true"
+  convertNoticesToExceptions="true"
+  convertWarningsToExceptions="true"
+  stopOnError="false"
+  stopOnFailure="false"
+  stopOnIncomplete="false"
+  stopOnSkipped="false">
+  <testsuites>
+    <testsuite name="PlantSearch Test Suite">
+    </testsuite>
+  </testsuites>
+</phpunit>
+
