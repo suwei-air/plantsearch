@@ -1,0 +1,138 @@
+h1#p-name {
+	display:inline-block;
+	width:500px;
+	padding:0 2em;
+	margin-bottom:0;
+	font-size:44px;
+}
+a.p-searchlink {
+	background-image:url(/static/image/arrow-l-blue.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	padding-left:1em;
+	margin:.5em;
+}
+
+hgroup#h-info {
+	border-top:2px solid rgb(186,186,186);
+	padding:20px;
+	display:block;
+}
+hgroup#h-info > img {
+	height:400px;
+	width:400px;
+	display:block;
+	float:left;
+	margin:20px;
+	padding:10px;
+	border:1px solid rgb(195,195,195);
+	background-color:rgb(245,245,245);
+}
+hgroup#h-info > h1 {
+	font-size:18px;
+	padding-top:1em;
+	margin-top:20px;
+}
+hgroup#h-info > h2, hgroup > h3 {
+	font-size:16px;
+	padding:0.5em 0;
+	margin:0;
+}
+hgroup#h-info > hr {
+	border:1px solid rgb(186,186,186);
+	margin:5px;
+}
+
+div#p-photo_gallery {
+	background-color:rgb(235,240,250);
+	float:left;
+	clear:both;
+	width:100%;
+}
+div#p-photo_gallery > h1 {
+	color:rgb(100,100,100);
+	font-size:16px;
+	padding:0.5em 2em;
+	margin:0 0.5em;
+	background-image:url(/static/image/arrow-u-blue.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+}
+div#p-photo_gallery > span.p-pg-arrow_l, div#p-photo_gallery > span.p-pg-arrow_r {
+	display:block;
+	height:100px;
+	width:30px;
+	float:left;
+	margin:47px 0;
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+}
+div#p-photo_gallery > span.p-pg-arrow_l {
+	margin-left:40px;
+	background-image:url(/static/image/arrow-l-blue.png);
+}
+div#p-photo_gallery > span.p-pg-arrow_r {
+	margin-right:40px;
+	background-image:url(/static/image/arrow-r-blue.png);
+}
+div#p-photo_gallery > ul {
+	margin:0;
+	padding:10px;
+	width:800px;
+	float:left;
+	overflow:hidden;
+}
+div#p-photo_gallery > ul > li {
+	list-style:none;
+	display:block;
+	float:left;
+	padding:10px;
+}
+div#p-photo_gallery > ul > li.selected {
+	background-color:rgb(0,175,240);
+}
+div#p-photo_gallery > ul > li > a {
+	display:block;
+	text-decoration:none;
+	height:200px;
+	width:200px;
+	background-size:cover;
+	background-position:center;
+}
+div#p-photo_gallery > ul > li > a > img {
+	visibility:hidden;
+	height:200px;
+	width:200px;
+}
+div#p-photo_gallery > ul > li > a > span {
+	display:block;
+	padding:1em;
+	margin-top:-58px;
+	color:#000;
+	text-align:right;
+}
+
+article.p-intro {
+	float:left;
+	clear:both;
+	width:100%;
+}
+article.p-intro > h1 {
+	font-size:18px;
+	width:8em;
+	background-color:rgb(0,175,240);
+	background-image:url(/static/image/arrow-u-white.png);
+	background-repeat:no-repeat;
+	background-position:6em center;
+	background-size:20px;
+	color:#FFF;
+	margin-left:.5em;
+	padding-left:.5em;
+	margin-bottom:0;
+}
+article.p-intro > section {
+	border-top:5px solid rgb(0,175,240);
+	padding:1em;
+	background-color:rgb(235,240,250);
+}

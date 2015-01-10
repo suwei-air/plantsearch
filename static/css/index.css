@@ -1,0 +1,110 @@
+section#index-wrap {
+	width:100%;
+	min-width:960px;
+	height:100%;
+	min-height:620px;
+	max-height:900px;
+	
+	/* for vertical centered */
+	#position: relative;
+	#top: -50%;
+	
+	font-size:16px;
+	text-align:center;
+	background-image:url(http://plantsearch.b0.upaiyun.com/index/apricot.jpg);
+	background-position:center;
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+
+section#index-wrap a {
+	color:black;
+	font-weight:bold;
+}
+
+section#index-wrap > nav {
+	margin-left:auto;
+	margin-right:auto;
+	width:930px;
+	height:2.2em;
+}
+
+section#index-wrap > nav > ul {
+	margin:0px;
+	padding:0.6em;
+	display:inline-block;
+	text-align:center;
+}
+
+section#index-wrap > nav > ul#search-link {
+	float:left;
+	margin-left:10%;
+}
+
+section#index-wrap > nav > ul#user {
+	float:right;
+	margin-right:10%;
+	background-color:rgba(255,255,255,.5);
+	background-image:url(/static/image/logo.png);
+	background-position:10px center;
+	background-size:contain;
+	background-repeat:no-repeat;
+	text-align:right;
+	width:20em;
+}
+
+section#index-wrap > nav > ul > li {
+	display:inline-block;
+	text-align:center;
+}
+
+section#index-wrap > nav > ul > li > a {
+	width:6em;
+	height:10%;
+	padding:1em;
+}
+
+section#index-wrap > div {
+	text-align:left;
+	width:900px;
+	height:90%;
+	min-height:560px;
+	margin-left:auto;
+	margin-right:auto;
+	border-color:rgba(255,255,255,.5);
+	border-width:5px;
+	border-style:solid;
+}
+
+section#index-wrap > div > form {
+	position:relative;
+	top:80%;
+	left:10%;
+}
+
+section#index-wrap > div > form > .input-append > input {
+	padding:0.5em;
+	background-color:#666;
+	color:#FFF;
+	border-style:none;
+	font-size:16px;
+	width:15em;
+}
+
+section#index-wrap > div > form > .input-append > span {
+	background-color:#666;
+	border:none;
+	font-size:16px;
+	padding:0.5em;
+}
+
+div#ggf-logo {
+	position:absolute;
+	bottom:0;
+	left:0;
+	background-color:white;
+	border-top-right-radius:50px;
+}
+div#ggf-logo img {
+	width:200px;
+}

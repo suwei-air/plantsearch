@@ -1,0 +1,102 @@
+* {
+	font-family:"Times New Roman", Helvetica, Arial, "Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
+}
+html, body {
+	margin:0;
+	padding:0;
+	height:100%;
+	text-align:center;
+}
+
+a {
+	text-decoration:none;
+	color:blue;
+}
+
+h1 {
+	font-size:2em;
+}
+h2 {
+	font-size:1.5em;
+}
+
+body>header, body>section#wrap, body>footer {
+	width:960px;
+	margin:0 auto;
+	text-align:left;
+	clear:both;
+}
+
+img#h-logo {
+	display:block;
+	float:left;
+	height:60px;
+}
+
+nav#h-menu {
+	display:block;
+	float:left;
+}
+nav#h-menu ul {
+	display:block;
+	float:left;
+	margin:0;
+	padding:0;
+}
+nav#h-menu li {
+	margin:.5em 0;
+	list-style:none;
+	float:left;
+	border-right-style:solid;
+	border-color:#999;
+	border-width:2px;
+}
+nav#h-menu li a {
+	display:inline-block;
+	padding:.5em 1em;
+	color:rgb(34,164,222);
+}
+nav#h-menu li li {
+	margin:.5em 0;
+	border-right-style:dotted;
+}
+nav#h-menu li li a {
+	padding:0 1em;
+}
+nav#h-menu li:last-child {
+	border:none;
+}
+
+div#h-user {
+	float:right;
+}
+div#h-user > * {
+	float:left;
+}
+img#h-u-face {
+	height:60px;
+	min-width:30px;
+}
+span#h-u-username a {
+	display:inline-block;
+	padding:1em .5em;
+	margin-right:.5em;
+	color:rgb(34,164,222);
+}
+span#h-u-logout a {
+	display:inline-block;
+	padding:1em .5em;
+	margin:0 .5em;
+	color:#999;
+}
+header>nav, header>div>span {
+	margin:3px 0;
+}
+
+footer {
+	font-size:0.9em;
+}
+span#ft-poweredby {
+	color:#999;
+	float:right;
+}

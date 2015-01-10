@@ -1,0 +1,87 @@
+form#u-login_form {
+	width:480px;
+	height:480px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:40px 0 40px 480px;
+	background-image:url(/static/image/login-cover.jpg);
+	background-position:left;
+	background-repeat:no-repeat;
+}
+
+span.logo-darwinassociation, span.logo-plantsearch {
+	display:inline-block;
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	width:150px;
+	height:150px;
+	margin:10px;
+}
+span.logo-darwinassociation {
+	background-image:url(/static/image/logo-darwin-association.png);
+}
+span.logo-plantsearch {
+	background-image:url(/static/image/logo-plantsearch.png);
+}
+
+#u-valid_error {
+	height:3em;
+	overflow:hidden;
+}
+#u-valid_error p {
+	text-align:center;
+	margin:0;
+	color:red;
+}
+
+.u-email, .u-password {
+	display:block;
+}
+.u-email span, .u-password span {
+	display:none;
+}
+.u-email input, .u-password input {
+	width:320px;
+	height:24px;
+	font-size:18px;
+	padding:5px 35px 5px 5px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	border-color:rgb(34,164,222);
+	border-style:solid;
+	border-width:2px;
+	background-repeat:no-repeat;
+	background-position:325px center;
+}
+.u-email input {
+	background-image:url(/static/image/envelope.png);
+}
+.u-password input {
+	background-image:url(/static/image/lock.png);
+}
+
+#u-login_submit {
+	width:150px;
+	height:50px;
+	font-size:24px;
+	margin:10px 30px;
+	color:rgb(34,164,222);
+	background:none;
+	border:none;
+}
+
+.u-long_login {
+	margin:50px;
+	font-size:18px;
+}
+
+.u-login_hint {
+	margin:0.5em 30px;
+	display:inline-block;
+}
+.u-login_hint a {
+	color:rgb(34,164,222);
+	margin:0 1em;
+}

@@ -38,7 +38,12 @@
 |
 */
 
-$route['default_controller'] = "welcome";
+$route['reg'] = 'user/reg/';
+$route['login'] = 'user/login/';
+$route['search'] = 'search/pop/';
+//$route['search/(:any)'] = 'search/search/$1';
+//$route['search'] = 'search';
+$route['default_controller'] = 'page/view';
 $route['404_override'] = '';
 
 

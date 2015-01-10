@@ -1,6 +1,13 @@
 language: php
+
 php:
   - 5.5
   - 5.4
   - 5.3
   - hhvm
+
+mysql:
+  database: app_plantsearch
+  username: root
+  encoding: utf8
+
