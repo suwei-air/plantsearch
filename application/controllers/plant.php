@@ -285,7 +285,6 @@ class Plant extends CI_Controller {
 				return FALSE;
 			}
 		}
-
 		if ($operation != FALSE && $this->plant_model->update_photo($plant_id) === FALSE) {
 			$this->load->view('header');
 			$this->load->view('message', array('message' => '修改失败！'));

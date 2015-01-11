@@ -228,10 +228,16 @@ class Plant_model extends CI_Model {
 		$my_post = $this->input->post(NULL, TRUE);
 
 		foreach ($my_post as $key => $value) {
-			if ("pic_" == substr($key, 0, 4)) {
-				$pic_id = substr($key, 4);
+			if ("pic_desc_" == substr($key, 0, 9)) {
+				$pic_id = substr($key, 9);
 				$this->db->update('photo',
 					array('description' => $value),
+					array('pic_id' => $pic_id));
+			}
+			if ("pic_photographer_" == substr($key, 0, 17)) {
+				$pic_id = substr($key, 17);
+				$this->db->update('photo',
+					array('photographer' => $value),
 					array('pic_id' => $pic_id));
 			}
 		}

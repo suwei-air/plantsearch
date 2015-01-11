@@ -53,6 +53,7 @@ DROP TABLE IF EXISTS `plant_feature`;
 CREATE TABLE IF NOT EXISTS `plant_feature` (
   `plant_feature_id` int(11) NOT NULL AUTO_INCREMENT,
   `plant_id` int(11) NOT NULL,
+  `common` float DEFAULT NULL,
   PRIMARY KEY (`plant_feature_id`),
   UNIQUE KEY `plant_id` (`plant_id`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 ;
@@ -84,6 +85,7 @@ CREATE TABLE IF NOT EXISTS `photo` (
   `uploader_id` int(11) NOT NULL,
   `upload_ip` varchar(32) NOT NULL,
   `upload_time` datetime NOT NULL,
+  `photographer` varchar(64) DEFAULT NULL,
   `description` varchar(16) DEFAULT NULL,
   PRIMARY KEY (`pic_id`),
   UNIQUE KEY `url` (`url`)

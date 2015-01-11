@@ -3,7 +3,7 @@ if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class Upyun_model extends CI_Model {
 	public function __construct() {
-		require_once('include/upyun.class.php');
+		require_once('application/libraries/upyun.class.php');
 	}
 	
 	public function upload($tmp_file, $file_type) {

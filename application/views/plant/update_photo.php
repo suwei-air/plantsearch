@@ -19,6 +19,7 @@
 <table border="1" width="100%" summary="表格形式展示植物图片">
   <tr>
     <th scope="col">图片</th>
+    <th scope="col">拍摄者</th>
     <th scope="col">描述</th>
     <th scope="col">管理</th>
   </tr>
@@ -26,7 +27,8 @@
   <?php foreach ($photos as $item): ?>
   <tr>
     <td><a target="_blank" href="<?php echo $item['url'] ?>"><?php echo $item['url'] ?></a></td>
-    <td><input name="pic_<?php echo $item['pic_id'] ?>" value="<?php echo $item['description'] ?>"></td>
+    <td><input name="pic_photographer_<?php echo $item['pic_id'] ?>" value="<?php echo $item['photographer'] ?>"></td>
+    <td><input name="pic_desc_<?php echo $item['pic_id'] ?>" value="<?php echo $item['description'] ?>"></td>
     <td>
       <a href="/plant/set_cover/<?php echo $plant_id . '/' . $item['pic_id'] ?>">设为封面</a> |
       <a onClick="javascript: return confirm('确实要删除图片吗？');" href="/plant/delete_photo/<?php echo $plant_id . '/' . $item['pic_id'] ?>">删</a>
