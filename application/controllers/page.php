@@ -22,4 +22,10 @@ class Page extends CI_Controller {
 			$this->load->view('footer');
 		}
 	}
+
+	public function acknowledgements() {
+		$this->load->view('header');
+		$this->load->view('page/acknowledgements');
+		$this->load->view('footer');
+	}
 }
