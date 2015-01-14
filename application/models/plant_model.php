@@ -266,6 +266,10 @@ class Plant_model extends CI_Model {
 	public function get_photo_by_plant($plant_id) {
 		return $this->db->from('photo')->where('plant_id', $plant_id)->order_by('description')->get()->result_array();
 	}
+
+	public function get_photographers() {
+		return $this->db->select('photographer')->distinct()->from('photo')->get()->result_array();
+	}
 	
 	public function verify($plant_id)
 	{

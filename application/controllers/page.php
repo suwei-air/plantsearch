@@ -24,8 +24,12 @@ class Page extends CI_Controller {
 	}
 
 	public function acknowledgements() {
+		$this->load->model('plant_model');
+		$data = array(
+			'photographers' => $this->plant_model->get_photographers()
+		);
 		$this->load->view('header');
-		$this->load->view('page/acknowledgements');
+		$this->load->view('page/acknowledgements', $data);
 		$this->load->view('footer');
 	}
 }

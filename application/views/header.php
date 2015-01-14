@@ -24,7 +24,7 @@
           <li><a href="/search/pro">专业版</a></li>
         </ul>
       </li>
-      <li><a href="">论坛</a></li>
+      <li><a href="/page/acknowledgements">致谢</a></li>
     </ul>
   </nav>
   <div id="h-user">
